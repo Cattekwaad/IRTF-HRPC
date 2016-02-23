@@ -1,5 +1,5 @@
 ---
-title: Human Rights Protocol Considerations Methodology
+title: Human Rights Protocol Considerations Methodology and Glossary
 abbrev: hrpcm
 docname: draft-varon-hrpc-methodology-03
 category: info
@@ -459,7 +459,7 @@ informative:
 
 --- abstract
 
-This document presents steps undertaken for developing a methodology to map engineering concepts at the protocol level that may be related to promotion and protection of Human Rights, particularly the right to freedom of expression and association. And provide a glossary to [still enter TKTK]  It aims to facilitate and build the work done by the Human Rights Protocol Considerations research group in the IRTF, as well as other authors within the IETF.
+And provide a glossary to [still enter TKTK]  It aims to facilitate and build the work done by the Human Rights Protocol Considerations research group in the IRTF, as well as other authors within the IETF.
 
 Exemplary work {{RFC1984}} {{RFC6973}} {{RFC7258}} has already been done in the IETF on privacy issues that should be considered when creating an Internet protocol. But, beyond privacy considerations, concerns for freedom of expression and association were also a strong part of the world-view of the community involved in developing the first Internet protocols. Indeed, promoting open, secure and reliable connectivity is essential for these rights. But how are this concepts addressed in the protocol level? Are there others? This ID is intended to explain research work done so far and to explore possible methodological approaches to move further on exploring and exposing the relations between standards and protocols and the promotion and protection of the rights to freedom of expression and association. 
 
@@ -544,7 +544,7 @@ Outcome 1: a list of technical terms that combined create the enabling environme
 Outcome 2: Possible translations of human rights concepts to technical terms.
 
 Step 1.3 - Building a common glossary
-In the analysis of existing RFCs, central design and technical concepts shall be found which impact human rights.
+In the analysis of existing RFCs, central design and technical concepts were found which impact human rights.
 Outcome: a Glossary for human rights protocol considerations with a list of concepts and definitions of technical concepts
 
 
