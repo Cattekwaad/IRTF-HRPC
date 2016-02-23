@@ -956,7 +956,7 @@ This section provides guidance for document authors in the form of a questionnai
 
 Note that the guidance provided in this section does not recommend specific practices.  The range of protocols developed in the IETF is too broad to make recommendations about particular uses of data or how human rights might be balanced against other design goals.  However, by carefully considering the answers to each question, document authors should be able to produce a comprehensive analysis that can serve as the basis for discussion of whether the protocol adequately protects against human rights threats.  This guidance is meant to help the thought process of a human rights analysis; it does not provide specific directions for how to write a human rights protocol considerations section (following the example set in {{RFC6973}}).
 
-#### Technical concepts as the relate to human rights
+#### Technical concepts as they relate to human rights
 
 ##### Connectivity (Right to freedom of expression & Right to freedom of assembly and association)
 Does your protocol honor the end-to-end principle? 
