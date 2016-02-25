@@ -185,7 +185,7 @@ Human Rights {{UDHR}} and the International Covenant ons Civil and
 Political Rights {{ICCPR}}, specifically, but not limited to the
 right to freedom of expression and the right to freedom of assembly.
 
-Comunications between people working on human rights and engineers
+Communications between people working on human rights and engineers
 working on Internet protocols can be improved with a shared vocabulary.
 
 This document aims to provide a shared vocabulary to facilitate
