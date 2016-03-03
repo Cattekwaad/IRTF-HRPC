@@ -230,7 +230,7 @@ informative:
      target: https://torrentfreak.com/is-your-isp-messing-with-bittorrent-traffic-find-out-140123/
 
    wikileaks:
-     title: Market Survey - Detection & Filtering Solutions to Identify File Transfer of Copyright Protected Content for Warner Bros. and movielabs
+     title: Market Survey - Detection & Filtering Solutions to Identify File Transfer of Copyright Protected Content for Warner Bros.       and movielabs
      date: 2011
      author:
         - ins: T. Sladek
