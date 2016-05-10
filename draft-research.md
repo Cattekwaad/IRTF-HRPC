@@ -1058,14 +1058,14 @@ The combination of content agnosticism, connectivity, security, privacy (as defi
 	 (	Accessibility         )
 	(	Internationalization   ) = Right to political participation
 	(	Censorship resistance  )
-	 (      Accessibility         )
+	 (      Connectivity          )
 
 					
 	 (  Open standards         )
 	(   Localization            ) = Right to participate in cultural life, 
 	(   Internationalization    )             arts and science
-	(   Censorship resistance   ) = Right to education
-	 (  Accessibility          )
+	(   Censorship resistance   )
+	 (  Connectivity           )
 
 
 
@@ -1341,14 +1341,7 @@ Note that the guidance provided in this section does not recommend specific prac
 #### Technical concepts as they relate to human rights
 
 ##### Connectivity
-Question(s):
-Does your protocol add application-specific functions to intermediary nodes? Could this functionality also be added to end nodes instead of intermediary nodes?
-
-Explanation:
-The end-to-end principle {{Saltzer}} which aims to extend characteristics of a protocol or system as far as possible within the system, or in other words 'the intelligence is end to end rather than hidden in the network' {{RFC1958}}. Middleboxes (which can be Content Delivery Networks, Firewalls, NATs or other intermediary nodes that provide other 'services' than routing), and the protocols guiding them, influence individuals’ ability to communicate online freely and privately. The potential for abuse and intentional and unintentional censoring and limiting permissionless innovation, and thus ultimately the impact of middleboxes on the Internet as a place of unfiltered, unmonitored freedom of speech, is real. 
-
-Example:
-End-to-end instant message encryption would conceal communications from one user's instant messaging application through any intermediate devices and servers all the way to the recipient's instant messaging application. If the message was decrypted at any intermediate point--for example at a service provider--then the property of end-to-end encryption would not be present.
+Does your protocol honor the end-to-end principle? 
 
 Impacts: 
 
@@ -1357,8 +1350,6 @@ Impacts:
 
 ##### Privacy
 Did you have a look at the Guidelines in the Privacy Considerations for Internet Protocols {{RFC6973}} section 7? Does your protocol in any way impact the confidentiality of protocol metadata? Does your protocol countering traffic analysis, or data minimisation?
-
-Explanation
 
 Impacts:
 
@@ -1518,11 +1509,21 @@ Impacts:
 - Right to education
 
 ##### Adaptability
-Could your protocol stifle or hinder permissionless innovation in any way? See 'Connectivity' above
+Question(s):
+Does your protocol impact permissionless innovation? See 'Connectivity' above
+
+Explanation: 
+Adaptability is closely related to permissionless innovation, which is important to maintain the freedom and ability to freely create and deploy new protocols on top of the communications constructs that currently exist. It is at the heart of the Internet as we know it, and to maintain its fundamentally open nature, we need to be mindful of the impact of protocols on maintaining or reducing permissionless innovation.
+
+Example: 
+WebRTC generates audio and/or video data. In order to ensure that WebRTC can be used in different locations by different parties it is important that standard Javascript APIs are developed to support applications from different voice service providers. Multiple parties will have similar capabilities, in order to ensure that all parties can build upon existing standards these need to be adaptable, and allow for permissionless innovation.
 
 Impacts:
 
 - Right to education
+- Right to freedom of expression 
+- Right to freedom of assembly and association	
+
 
 Acknowledgements
 ================
