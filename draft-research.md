@@ -1337,6 +1337,8 @@ The human rights threats on the Internet come in a myriad of forms. Protocols an
 
 This sections details several ‘common’ threats to human rights, indicating how each of these can lead to human rights violations/harms and present several examples of how these threats to human rights materialize on the Internet. This threat modeling is inspired by {{RFC6973}} Privacy Considerations for Internet Protocols, which bases itself on security threat analysis. This method is by no means a perfect solution for assessing human rights risks in Internet protocols and systems; it is however the best approach currently available. Certain human rights threats are indirectly considered in Internet protocols as part of the standard privacy and security considerations {{RFC3552}}. Others suggested are tailored specifically to human rights, and represents considerations not currently considered in other RFCs.
 
+There should also be some discussion of potential human rights risks arising from potential misapplications of the protocol or technology described in the RFC. This might be coupled with an Applicability Statement for that RFC.
+
 Many threats, enablers and risks are linked to different rights. This is not unsurprising if one takes into account that human rights are interrelated, interdependent and universal. Here however we're not discussing all human rights because not all human rights are relevant to ICTs in general and protocols and standards in particular. This is by no means an attempt to cherry picks rights, if other rights seem relevant, please contact the authors and/or the hrpc mailinglist.
 
 ### Guidelines for human rights considerations
