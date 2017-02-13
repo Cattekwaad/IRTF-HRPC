@@ -1025,9 +1025,6 @@ Human rights
 Integrity
 : The property that data has not been changed, destroyed, or lost in an unauthorized or accidental manner. {{RFC4949}}. 
 
-Internet censorship
-: Internet censorship is the intentional suppression of otherwise freely accessible information originating, flowing or stored on systems connected to the Internet where that information is relevant for decision making to some entity." (based on {{Elahi}})
-
 Interoperable
 : A property of a documented standard or protocol which allows different independent implementations to work with each other without any restriction on functionality.
 
@@ -1088,7 +1085,7 @@ Scalability
 : The ability to handle increased or decreased system parameters (e.g., number of end-systems, users, data flows, routing entries. etc.) predictably within defined expectations. There should be a clear definition of its scope and applicability. The limits of a systems scalability should be defined. Growth or shrinkage of these parameters is typically considered by orders of magnitude.
 
 Strong encryption / cryptography
-: Used to describe a cryptographic algorithm that would require a large amount of computational power to defeat it. {{RFC4949}}
+: Used to describe a cryptographic algorithm that would require a large amount of computational power to defeat it. {{RFC4949}}. In the modern usage of the definition 'strong encryption' this refers to an amount of computing power current not available, not even to major state-level actors. 
 
 Transparency
 : In this context transparency is linked to the comprehensibility of a protocol in relation to the choices it makes for both user and protocol developers and implementers and to its outcome.
